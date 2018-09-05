@@ -20,6 +20,8 @@ import kotlin.reflect.KClass;
 public class MainView extends VerticalLayout {
 
     public MainView() {
+        setSizeFull();
+
         final Grid<Person> grid = new Grid<>(Person.class);
         grid.setSizeFull();
         grid.setDataProvider(Person.createDataProvider());
