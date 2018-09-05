@@ -1,5 +1,17 @@
 [![Build Status](https://travis-ci.org/mvysny/vaadin10-sqldataprovider-example.svg?branch=master)](https://travis-ci.org/mvysny/vaadin10-sqldataprovider-example)
 
+Demonstrates the use of a full-blown SQLDataProvider in a Vaadin 10 Grid.
+
+Only requires a Servlet 3.0 container to run. Developed in a pure Java. Also demoes an auto-generated
+Grid filter bar, therefore this example serves as a full replacement for Teppo Kurki's
+[FilteringTable](https://vaadin.com/directory/component/filteringtable).
+
+The project uses code from [Vaadin-on-Kotlin](http://vaadinonkotlin.eu). The Kotlin stdlib is
+only included as a run-time dependency - this project contains no Kotlin code and doesn't even
+run the Kotlin compiler.
+
+The live demo of this project [runs on Heroku](https://vaadin10-sqldataprovider.herokuapp.com/).
+
 # Skeleton Starter for Vaadin Flow
 
 This project can be used as a starting point to create your own Vaadin Flow application.
