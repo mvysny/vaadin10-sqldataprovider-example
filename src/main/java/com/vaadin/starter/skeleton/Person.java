@@ -13,6 +13,9 @@ import java.util.HashMap;
 
 /**
  * The class that will hold the outcome of the SQL select in the {@link #createDataProvider()} function.
+ * The Sql2o library is used to map the JDBC ResultSet into a Java Bean.
+ * The mapping directly maps column name to a bean property name; to modify the mapping just
+ * alias the columns in your SELECT command.
  * @author mavi
  */
 public class Person implements Serializable {
