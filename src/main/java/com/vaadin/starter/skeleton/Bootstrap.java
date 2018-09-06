@@ -14,7 +14,7 @@ import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
 /**
- * Bootstraps the VokOrm so that the SQLDataProvider has access to the database.
+ * Bootstraps the <a href="https://github.com/mvysny/vok-orm">Vok-ORM</a> which is used by the <code>SQLDataProvider</code> to access the database.
  * @author mavi
  */
 @WebListener
