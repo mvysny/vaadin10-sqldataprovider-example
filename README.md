@@ -10,7 +10,7 @@ The project uses code from [Vaadin-on-Kotlin](http://vaadinonkotlin.eu). The Kot
 only included as a run-time dependency - this project contains no Kotlin code and doesn't even
 run the Kotlin compiler.
 
-The live demo of this project [runs on Heroku](https://vaadin10-sqldataprovider.herokuapp.com/).
+The [live demo](https://vaadin10-sqldataprovider.herokuapp.com/) of this project runs on Heroku.
 
 You can read more about the SQLDataProvider in the [Vaadin-on-Kotlin Databases Guide](http://www.vaadinonkotlin.eu/databases-v10.html).
 In short, SQLDataProvider uses [Sql2o](https://www.sql2o.org/) to map JDBC rows to Java objects.
