@@ -74,7 +74,7 @@
         <dependency>
             <groupId>com.github.vok</groupId>
             <artifactId>vok-framework-v10-sql2o</artifactId>
-            <version>0.4.13</version>
+            <version>0.4.15</version>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
