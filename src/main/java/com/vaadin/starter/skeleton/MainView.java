@@ -30,7 +30,7 @@ public class MainView extends VerticalLayout {
         final FilterRow<Person, Filter<Person>> filterRow = VaadinFiltersKt.generateFilterComponents(grid.appendHeaderRow(),
                 grid,
                 kclass,
-                new DefaultFilterFieldFactory<>(Person.class, new SqlFilterFactory<>()),
+                new DefaultFilterFieldFactory<>(Person.class, new SqlFilterFactory<>(Person.class)),
                 ValueChangeMode.EAGER
         );
         add(grid);

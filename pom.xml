@@ -21,10 +21,6 @@
 
     <repositories>
         <repository>
-            <id>vok</id>
-            <url>https://dl.bintray.com/mvysny/vaadin-on-kotlin</url>
-        </repository>
-        <repository>
             <id>jcenter</id>
             <url>https://jcenter.bintray.com/</url>
         </repository>
@@ -63,9 +59,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.vok</groupId>
+            <groupId>com.github.vaadinonkotlin</groupId>
             <artifactId>vok-framework-v10-sql2o</artifactId>
-            <version>0.4.15</version>
+            <version>0.5.0</version>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>

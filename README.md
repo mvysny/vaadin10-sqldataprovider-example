@@ -1,4 +1,8 @@
+[![Built in Vaadin on Kotlin](http://vaadinonkotlin.eu/images/built_in_vok_badge_small.png)](http://vaadinonkotlin.eu)
 [![Build Status](https://travis-ci.org/mvysny/vaadin10-sqldataprovider-example.svg?branch=master)](https://travis-ci.org/mvysny/vaadin10-sqldataprovider-example)
+
+Vaadin 10 SQLDataProvider Example
+=================================
 
 Demonstrates the use of a full-blown SQLDataProvider in a Vaadin 10 Grid.
 
@@ -27,6 +31,6 @@ There is also a [getting started tutorial](https://vaadin.com/docs/v10/flow/intr
 
 To access it directly from github, clone the repository and import the project to the IDE of your choice as a Maven project. You need to have Java 8 JDK or higher installed.
 
-Run using `./mvnw jetty:run` (Windows: `./mvnw.cmd jetty:run`) and open [http://localhost:8080](http://localhost:8080) in browser.
+Run using `./mvnw -C jetty:run` (Windows: `./mvnw.cmd -C jetty:run`) and open [http://localhost:8080](http://localhost:8080) in browser.
 
 For a full Vaadin Flow application example, there is the Beverage Buddy App Starter for Flow available also from [vaadin.com/start](https://vaadin.com/start) page.
