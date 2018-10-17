@@ -1,15 +1,17 @@
 package com.vaadin.starter.skeleton;
 
-import com.github.karibu.testing.v10.GridKt;
-import com.github.karibu.testing.v10.LocatorKt;
 import com.github.karibu.testing.v10.MockVaadin;
 import com.github.karibu.testing.v10.Routes;
 import com.vaadin.flow.component.grid.Grid;
 
 import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import static com.github.karibu.testing.v10.GridKt.*;
+import static com.github.karibu.testing.v10.LocatorJ.*;
 
 /**
  * Look Ma, no Spring/JavaEE/Servlet container necessary! That's what you get when you keep things simple.
@@ -33,9 +35,14 @@ public class MyUITest {
         MockVaadin.setup(routes);
     }
 
+    @AfterEach
+    public void tearDownVaadin() {
+        MockVaadin.tearDown();
+    }
+
     @Test
     public void testGridHas100Rows() {
-        final Grid<Person> grid = LocatorKt._get(Grid.class, gridSearchSpec -> null);
-        GridKt.expectRows(grid, 100);
+        final Grid<Person> grid = _get(Grid.class);
+        expectRows(grid, 100);
     }
 }
