@@ -30,9 +30,7 @@ public class MyUITest {
 
     @BeforeEach
     public void mockVaadin() {
-        final Routes routes = new Routes();
-        routes.autoDiscoverViews("com.vaadin.starter.skeleton");
-        MockVaadin.setup(routes);
+        MockVaadin.setup(new Routes().autoDiscoverViews("com.vaadin.starter.skeleton"));
     }
 
     @AfterEach
