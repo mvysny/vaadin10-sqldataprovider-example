@@ -95,7 +95,7 @@
         <dependency>
             <groupId>com.github.kaributesting</groupId>
             <artifactId>karibu-testing-v10</artifactId>
-            <version>0.5.0</version>
+            <version>0.5.1</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
