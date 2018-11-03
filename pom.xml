@@ -61,7 +61,7 @@
         <dependency>
             <groupId>com.github.vaadinonkotlin</groupId>
             <artifactId>vok-framework-v10-sql2o</artifactId>
-            <version>0.5.1</version>
+            <version>0.5.2</version>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
