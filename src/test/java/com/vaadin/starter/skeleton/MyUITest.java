@@ -1,17 +1,13 @@
 package com.vaadin.starter.skeleton;
 
-import com.github.karibu.testing.v10.MockVaadin;
-import com.github.karibu.testing.v10.Routes;
+import com.github.mvysny.kaributesting.v10.MockVaadin;
+import com.github.mvysny.kaributesting.v10.Routes;
 import com.vaadin.flow.component.grid.Grid;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
-import static com.github.karibu.testing.v10.GridKt.*;
-import static com.github.karibu.testing.v10.LocatorJ.*;
+import static com.github.mvysny.kaributesting.v10.GridKt.*;
+import static com.github.mvysny.kaributesting.v10.LocatorJ.*;
 
 /**
  * Look Ma, no Spring/JavaEE/Servlet container necessary! That's what you get when you keep things simple.
