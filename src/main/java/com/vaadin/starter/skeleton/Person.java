@@ -1,6 +1,6 @@
 package com.vaadin.starter.skeleton;
 
-import com.github.vokorm.Filter;
+import com.github.mvysny.vokdataloader.Filter;
 import com.vaadin.flow.data.provider.ConfigurableFilterDataProvider;
 
 import eu.vaadinonkotlin.vaadin10.sql2o.DataProvidersKt;
