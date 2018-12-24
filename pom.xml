@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
 
-        <vaadin.version>11.0.3</vaadin.version>
+        <vaadin.version>12.0.3</vaadin.version>
         <junit.jupiter.version>5.3.0</junit.jupiter.version>
     </properties>
 
@@ -54,7 +54,7 @@
         <dependency>
             <groupId>eu.vaadinonkotlin</groupId>
             <artifactId>vok-framework-v10-sql2o</artifactId>
-            <version>0.6.2</version>
+            <version>0.6.3</version>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
@@ -83,7 +83,7 @@
         <dependency>
             <groupId>com.github.mvysny.kaributesting</groupId>
             <artifactId>karibu-testing-v10</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.5</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
