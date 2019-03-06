@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
 
-        <vaadin.version>13.0.0.beta1</vaadin.version>
+        <vaadin.version>13.0.0</vaadin.version>
         <junit.jupiter.version>5.3.0</junit.jupiter.version>
     </properties>
 
@@ -30,13 +30,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-<repositories>
-    <repository>
-        <id>vaadin-prereleases</id>
-        <url>https://maven.vaadin.com/vaadin-prereleases/</url>
-    </repository>
-</repositories>
 
     <dependencies>
         <dependency>
@@ -61,17 +54,17 @@
         <dependency>
             <groupId>eu.vaadinonkotlin</groupId>
             <artifactId>vok-framework-v10-sql2o</artifactId>
-            <version>0.7.0</version>
+            <version>0.7.1</version>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <version>1.4.197</version>
+            <version>1.4.198</version>
         </dependency>
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
-            <version>5.2.0</version>
+            <version>5.2.4</version>
         </dependency>
 
         <!-- Browserless Testing, see https://github.com/mvysny/karibu-testing -->
@@ -90,7 +83,7 @@
         <dependency>
             <groupId>com.github.mvysny.kaributesting</groupId>
             <artifactId>karibu-testing-v10</artifactId>
-            <version>1.1.2</version>
+            <version>1.1.4</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
