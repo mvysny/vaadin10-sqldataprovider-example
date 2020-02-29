@@ -23,14 +23,15 @@ public class MainView extends VerticalLayout {
 
         final Grid<Person> grid = new Grid<>(Person.class);
         grid.setSizeFull();
-        grid.setDataProvider(Person.createDataProvider());
+        grid.setDataProvider(Person.dao.createDataProvider());
 
         final KClass<Person> kclass = (KClass<Person>) Reflection.getOrCreateKotlinClass(Person.class);
         final FilterRow<Person, Filter<Person>> filterRow = DataLoaderFilterFactoryKt.generateFilterComponents(grid.appendHeaderRow(),
                 grid,
                 kclass,
                 new DefaultFilterFieldFactory<>(Person.class, new DataLoaderFilterFactory<>(Person.class)),
-                ValueChangeMode.EAGER
+                ValueChangeMode.EAGER,
+                (hasValue, personPropertyDefinition) -> null
         );
         add(grid);
     }
