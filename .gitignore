@@ -11,3 +11,7 @@
 .settings
 .classpath
 .project
+
+node_modules
+webpack.generated.js
+
