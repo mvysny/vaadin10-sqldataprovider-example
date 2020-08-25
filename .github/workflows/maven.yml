@@ -23,7 +23,7 @@ jobs:
       with:
         path: |
           ~/.m2/repository
-        key: ${{ runner.os }}-gradle-${{ hashFiles('**/pom.xml', '.mvn/wrapper/maven-wrapper.properties') }}
+        key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml', '.mvn/wrapper/maven-wrapper.properties') }}
     - name: Cache pnpm packages
       uses: actions/cache@v2
       with:
