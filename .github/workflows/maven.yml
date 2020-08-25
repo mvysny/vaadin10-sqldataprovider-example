@@ -1,4 +1,4 @@
-name: Gradle
+name: Maven
 
 on: [push, pull_request]
 

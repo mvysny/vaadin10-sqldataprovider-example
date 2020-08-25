@@ -1,5 +1,4 @@
 [![Powered By Vaadin on Kotlin](http://vaadinonkotlin.eu/iconography/vok_badge.svg)](http://vaadinonkotlin.eu)
-[![Build Status](https://travis-ci.org/mvysny/vaadin10-sqldataprovider-example.svg?branch=master)](https://travis-ci.org/mvysny/vaadin10-sqldataprovider-example)
 
 Vaadin 10 SQLDataProvider Example
 =================================
