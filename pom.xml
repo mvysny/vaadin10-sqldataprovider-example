@@ -15,23 +15,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
 
-        <vaadin.version>14.3.0</vaadin.version>
-        <junit.jupiter.version>5.6.0</junit.jupiter.version>
+        <vaadin.version>14.5.3</vaadin.version>
+        <junit.jupiter.version>5.7.1</junit.jupiter.version>
     </properties>
     
-    <repositories>
-        <repository>
-            <id>Vaadin Pre-releases</id>
-            <url>https://maven.vaadin.com/vaadin-prereleases</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>Vaadin Pre-releases</id>
-            <url>https://maven.vaadin.com/vaadin-prereleases</url>
-        </pluginRepository>
-    </pluginRepositories>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -109,7 +96,7 @@
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
-            <version>6.2.4</version>
+            <version>7.1.1</version>
         </dependency>
 
         <!-- Browserless Testing, see https://github.com/mvysny/karibu-testing -->
@@ -128,7 +115,7 @@
         <dependency>
             <groupId>com.github.mvysny.kaributesting</groupId>
             <artifactId>karibu-testing-v10</artifactId>
-            <version>1.1.27</version>
+            <version>1.2.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -194,9 +181,6 @@
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <pnpmEnable>true</pnpmEnable>
-                </configuration>
             </plugin>
         </plugins>
     </build>
@@ -230,9 +214,6 @@
                                 <phase>compile</phase>
                             </execution>
                         </executions>
-                        <configuration>
-                            <pnpmEnable>true</pnpmEnable>
-                        </configuration>
                     </plugin>
                 </plugins>
             </build>
