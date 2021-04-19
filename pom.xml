@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
 
-        <vaadin.version>14.3.0</vaadin.version>
+        <vaadin.version>19.0.5</vaadin.version>
         <junit.jupiter.version>5.6.0</junit.jupiter.version>
     </properties>
     
