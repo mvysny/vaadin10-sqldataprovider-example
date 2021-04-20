@@ -78,6 +78,8 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- don't v-bump this, since it's not possible to use the new filter bar
+             from Java at the moment -->
         <dependency>
             <groupId>eu.vaadinonkotlin</groupId>
             <artifactId>vok-framework-v10-vokdb</artifactId>
